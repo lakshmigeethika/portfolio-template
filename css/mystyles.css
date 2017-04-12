@@ -1,0 +1,235 @@
+body{
+/*    background-color: lemonchiffon;*/
+/*    background-image:url(../images/body.jpg);*/
+    background-attachment: fixed;
+
+}
+#nav .navbar{
+    background-color: navy;
+        font-family: Comic Sans MS, Comic Sans,cursive;
+    
+
+}
+
+
+ 
+
+.navbar-default .navbar-brand {
+  color: #ff9980;
+}
+
+
+#navbar .navbar-nav li a{
+    color: #ff9980;
+    font-family: Comic Sans MS, Comic Sans,cursive;
+
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: cyan;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color:  #ff9980 ;
+} 
+#navbar .navbar-nav li a:hover, 
+.navbar-default .navbar-brand:hover{
+    color:cyan;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+/*  border-bottom: 1px ridge;*/
+  min-height: 400px;
+}
+
+
+/*home styling*/
+#home{
+    background-image: url("http://res.cloudinary.com/geeta/image/upload/v1486971087/home-bg_gsmhiu.jpg");
+    background-size:cover;
+/*    background-repeat:repeat;*/
+      margin: 0px auto;
+  padding: 150px 0px;
+  border-bottom: 1px ridge;
+/*  min-height: 00px;   */
+}
+
+#home p{
+    font-size: 28px;
+    color: black;
+    font-weight: 630;
+    font-family: Comic Sans MS, Comic Sans,cursive;
+}
+
+#home h1, h3 {
+    color: black;
+    font-family: Comic Sans MS, Comic Sans,cursive;
+}
+#home .pagination-center{
+    text-align: center;
+/*    margin-top: 400px;*/
+}
+ .heading{
+    font-size: 35px;
+    text-align: left;
+     margin: -30px;
+}
+
+#home img {
+    
+    border:3px solid #ff9980;
+    border-radius: 40%;
+	width: 300px;
+	height: 230px;
+	display: inline-block;
+/*    align-self: center;*/
+}
+
+/*portfolio styling*/
+#portfolio
+{
+    background-image: url("http://res.cloudinary.com/geeta/image/upload/v1486971177/portfolio-bg_xnzsgv.jpg");
+        background-size:cover;
+/*   background: rgba(0, 0, 0, 0.5);*/
+}
+ 
+.portfolio-item {
+/*	margin: 15px;*/
+    
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+.portfolio-item:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.portfolio-item .hover-bg {
+	height: 20px;
+    width: 200px;;
+	overflow: hidden;
+	position: relative;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: coral;
+	background: rgba(0, 0, 0, 0.66);
+	padding: 33% 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text>h4 {
+	opacity: 0;
+	color: #ff9980;
+	font-weight: 400;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>h4 {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+
+.hover-bg:hover .hover-text>i {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+
+#portfolio h1{
+    color: black;
+/*    font-weight: 600;*/
+        font-family: Comic Sans MS, Comic Sans,cursive;
+    padding-bottom: 25px;
+
+}
+
+.placeholderimg{
+        width: 350px;
+        height: 280px;
+        margin: 20px 20px;
+}
+
+
+/*contact section styling*/
+
+#contact{
+    background-image: url("http://res.cloudinary.com/geeta/image/upload/v1486971177/contact-bg_qav0gt.jpg");
+    background-size: cover;
+      min-height: 450px;
+    font-family: Comic Sans MS, Comic Sans,cursive;
+}
+
+
+#contact .well{
+    margin-top:30px;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 3px;
+    border-style:dashed;
+    background-color: #b3ffff;
+    opacity: 0.5;
+    padding-left: 5px;
+    font-size:28px;
+    color:black;
+/*    font-weight: 400;*/
+    }
+#contact h1{
+    padding-bottom: 25px;
+}
+#contact p
+{
+        font-size:28px;
+
+}
+#contact button{
+    padding: 10px;
+}
+
+#contact .social {
+	margin-top: 60px;
+   
+}
+#contact .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact .social i.fa {
+	font-size: 30px;
+	padding: 4px 5px;
+	color: black;
+	transition: all 0.5s;
+}
+#contact .social i.fa:hover,#contact button:hover {
+	color: #ff9980;
+     border-color:#ff9980
+    
+}
+
+#contact button{
+    border-radius: 5px;
+    background-color: white;
+    border-width: 3px;
+    border-style:groove;
+    border-color:black;
+/*    width:55px;*/
+}
